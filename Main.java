@@ -4,6 +4,11 @@ public class Main {
     public static void main(String[] args) {
         condition = false;
         System.out.println("Hello, World!");
-        System.out.println("This is the second line print.");
+        System.out.println(getCondition());
+    } 
+
+    public static boolean getCondition() {
+        condition = true;
+        return condition;
     }
 }
