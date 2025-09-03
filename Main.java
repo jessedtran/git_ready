@@ -5,5 +5,6 @@ public class Main {
         condition = false;
         System.out.println("Hello, World!");
         System.out.println("This is the second line print.");
+        System.out.println("Test");
     }
 }
